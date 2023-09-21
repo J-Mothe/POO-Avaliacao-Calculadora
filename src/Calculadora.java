@@ -4,7 +4,9 @@
 
 public class Calculadora {
     // Atributo privado resultado
-    private double resultado;
+    // private double resultado;
+    // Agora sera protected para CalculadoraAvançada funcionar
+    protected double resultado;
 
     // Inicializa o resultado como zero
     public Calculadora() {
